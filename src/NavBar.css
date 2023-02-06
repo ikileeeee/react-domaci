@@ -1,0 +1,36 @@
+*,*::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: palevioletred;
+}
+.naziv{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+}
+.nav_menu{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    gap: 3rem;
+}
